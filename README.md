@@ -1,16 +1,73 @@
-# React + Vite
+🌟 EventOS Frontend
+A Modern, Cloud-Deployed Event Management Experience
+<p align="center"> <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Redux%20Toolkit-State%20Management-purple?style=for-the-badge" /> <img src="https://img.shields.io/badge/AWS-S3%20%7C%20CloudFront-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Material%20UI-Design-blueviolet?style=for-the-badge" /> </p>
+✨ Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The EventOS Frontend is a responsive, high-performance web interface designed to deliver a seamless event discovery and management experience.
+Built with React and Redux Toolkit, it provides intuitive navigation, role-based access, and a clean, modern UI powered by Material UI.
 
-Currently, two official plugins are available:
+The frontend communicates securely with a cloud-hosted backend and is deployed using AWS S3 + CloudFront, ensuring global availability and fast load times.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Vision
 
-## React Compiler
+To create a premium, user-centric event platform that feels effortless to use—whether you’re discovering events or managing them as an administrator.
+EventOS focuses on clarity, speed, and reliability, making event management both beautiful and efficient.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧩 Key Features
+👤 User Experience
 
-## Expanding the ESLint configuration
+Clean, modern UI with Material UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fully responsive design (mobile, tablet, desktop)
+
+Fast navigation with optimized React rendering
+
+🔐 Authentication & Access
+
+Secure JWT-based authentication
+
+Role-based protected routes (Admin / User)
+
+Persistent login using secure storage
+
+📅 Event Discovery
+
+Paginated event listings
+
+Sorting and filtering options
+
+Detailed event pages with banners and metadata
+
+🧾 Event Registration
+
+One-click event registration
+
+Live capacity status (Registered / Waitlisted)
+
+Real-time updates from backend APIs
+
+🛠 Admin Dashboard
+
+Event creation, editing, and deletion
+
+Banner image upload support
+
+Dashboard view for managing events and registrations
+
+🛠 Tech Stack
+Category	Technology
+Framework	React
+State Management	Redux Toolkit
+UI Library	Material UI
+HTTP Client	Axios
+Routing	React Router DOM
+Build Tool	Vite
+Deployment	AWS S3 + CloudFront
+🌐 Live Application
+
+🚀 CloudFront URL (Production):
+
+https://d2xk3zx483wp95.cloudfront.net
+
+
+Deployed globally using AWS CloudFront CDN for fast, reliable access across devices.
