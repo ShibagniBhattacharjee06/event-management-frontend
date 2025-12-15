@@ -1,73 +1,60 @@
-🌟 EventOS Frontend
-A Modern, Cloud-Deployed Event Management Experience
-<p align="center"> <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Redux%20Toolkit-State%20Management-purple?style=for-the-badge" /> <img src="https://img.shields.io/badge/AWS-S3%20%7C%20CloudFront-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Material%20UI-Design-blueviolet?style=for-the-badge" /> </p>
-✨ Overview
+# EventOS – Frontend
 
-The EventOS Frontend is a responsive, high-performance web interface designed to deliver a seamless event discovery and management experience.
-Built with React and Redux Toolkit, it provides intuitive navigation, role-based access, and a clean, modern UI powered by Material UI.
+EventOS Frontend is the client-side application of a cloud-based Event Management Platform.  
+It provides a modern, responsive user interface for browsing events, registering for them, and managing events through an admin dashboard.
 
-The frontend communicates securely with a cloud-hosted backend and is deployed using AWS S3 + CloudFront, ensuring global availability and fast load times.
+The application is built using React and Redux Toolkit and is deployed on AWS using S3 and CloudFront.
 
-🎯 Vision
+---
 
-To create a premium, user-centric event platform that feels effortless to use—whether you’re discovering events or managing them as an administrator.
-EventOS focuses on clarity, speed, and reliability, making event management both beautiful and efficient.
+## Project Description
 
-🧩 Key Features
-👤 User Experience
+The frontend of EventOS focuses on usability, performance, and secure interaction with the backend APIs.  
+Users can explore upcoming events, view detailed information, and register seamlessly.  
+Administrators can create, update, and delete events while monitoring registrations.
 
-Clean, modern UI with Material UI
+The application communicates with a RESTful backend hosted on AWS EC2 and uses JWT-based authentication for secure access.
 
-Fully responsive design (mobile, tablet, desktop)
+---
 
-Fast navigation with optimized React rendering
+## Project Vision
 
-🔐 Authentication & Access
+To deliver a scalable, user-friendly, and cloud-ready event management interface that works smoothly across devices and networks, providing a professional experience for both users and administrators.
 
-Secure JWT-based authentication
+---
 
-Role-based protected routes (Admin / User)
+## Key Features
 
-Persistent login using secure storage
+- User authentication using JWT
+- Role-based access control (Admin / User)
+- Event listing with pagination and sorting
+- Event detail view with banner images
+- Event registration with real-time status
+- Admin dashboard for event management
+- Responsive UI using Material UI
+- Secure API communication with backend
 
-📅 Event Discovery
+---
 
-Paginated event listings
+## Tech Stack
 
-Sorting and filtering options
+- React
+- Redux Toolkit
+- React Router DOM
+- Axios
+- Material UI
+- Vite
+- AWS S3 (Static Hosting)
+- AWS CloudFront (CDN)
 
-Detailed event pages with banners and metadata
+---
 
-🧾 Event Registration
-
-One-click event registration
-
-Live capacity status (Registered / Waitlisted)
-
-Real-time updates from backend APIs
-
-🛠 Admin Dashboard
-
-Event creation, editing, and deletion
-
-Banner image upload support
-
-Dashboard view for managing events and registrations
-
-🛠 Tech Stack
-Category	Technology
-Framework	React
-State Management	Redux Toolkit
-UI Library	Material UI
-HTTP Client	Axios
-Routing	React Router DOM
-Build Tool	Vite
-Deployment	AWS S3 + CloudFront
-🌐 Live Application
-
-🚀 CloudFront URL (Production):
-
+## Live URL
 https://d2xk3zx483wp95.cloudfront.net
 
+Related Repository
 
-Deployed globally using AWS CloudFront CDN for fast, reliable access across devices.
+## Backend Repository
+https://github.com/ShibagniBhattacharjee06/event-management-backend
+
+
